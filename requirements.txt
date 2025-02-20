@@ -19,3 +19,7 @@ idna
 ipydatawidgets
 ipython
 plotly==5.15.0
+psycopg2-binary==2.9.7
+numpy==1.26.1
+python-occ==7.6.2
+Werkzeug==3.0.1
