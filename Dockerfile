@@ -4,7 +4,10 @@ FROM python:3.10
 # Install system dependencies
 RUN apt-get update && apt-get install -y \
     git cmake swig libgl1-mesa-dev libglu1-mesa-dev \
-    libfreetype6-dev libx11-dev libxext-dev libxmu-dev
+    libfreetype6-dev libx11-dev libxext-dev libxmu-dev \
+    freeglut3-dev libtbb-dev libboost-all-dev \
+    liboce-foundation-dev liboce-modeling-dev liboce-ocaf-dev liboce-visualization-dev \
+    liboce-data-exchange-dev
 
 # Set working directory
 WORKDIR /app
@@ -13,8 +16,8 @@ WORKDIR /app
 RUN git clone --recursive https://github.com/tpaviot/pythonocc-core.git /pythonocc-core
 WORKDIR /pythonocc-core
 
-# Build and install PythonOCC manually
-RUN cmake . -DCMAKE_INSTALL_PREFIX=/usr/local
+# Configure, Build, and Install PythonOCC
+RUN cmake . -DCMAKE_INSTALL_PREFIX=/usr/local -DOCE_DIR=/usr/lib/x86_64-linux-gnu/cmake/oce
 RUN make -j$(nproc)
 RUN make install
 
