@@ -1,13 +1,18 @@
 # Use Python as the base image
 FROM python:3.10
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
+# Set environment variables to avoid interactive prompts
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Update package lists and install dependencies
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
     git cmake swig libgl1-mesa-dev libglu1-mesa-dev \
     libfreetype6-dev libx11-dev libxext-dev libxmu-dev \
     freeglut3-dev libtbb-dev libboost-all-dev \
-    liboce-foundation-dev liboce-modeling-dev liboce-ocaf-dev liboce-visualization-dev \
-    liboce-data-exchange-dev
+    liboce-foundation-dev liboce-modeling-dev liboce-ocaf-dev \
+    liboce-visualization-dev liboce-data-exchange-dev && \
+    rm -rf /var/lib/apt/lists/*  # Cleanup
 
 # Set working directory
 WORKDIR /app
