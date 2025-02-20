@@ -1,17 +1,19 @@
 # Use a base image with Python, Git, and required tools
 FROM python:3.10
 
-# Install necessary system packages
+# Install system dependencies
 RUN apt-get update && apt-get install -y \
-    git cmake swig
+    git cmake swig libgl1-mesa-dev libglu1-mesa-dev
 
-# Install Python dependencies
-RUN pip install --no-cache-dir flask numpy plotly
-
-# Clone and install PythonOCC
+# Clone PythonOCC repository
 RUN git clone --recursive https://github.com/tpaviot/pythonocc-core.git
 WORKDIR /pythonocc-core
-RUN pip install .
+
+# Install dependencies for PythonOCC
+RUN pip install -r requirements.txt  # Install dependencies first
+RUN cmake . -DOCC_INCLUDE_DIR=/usr/include/opencascade -DOCC_LIBRARY_DIR=/usr/lib
+RUN make -j$(nproc)
+RUN make install
 
 # Set working directory to the application folder
 WORKDIR /app
