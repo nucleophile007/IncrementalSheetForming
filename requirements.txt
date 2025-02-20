@@ -1,46 +1,46 @@
-aiohappyeyeballs @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b38qlemj37/croot/aiohappyeyeballs_1734469403568/work
-aiohttp @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_44bhte2f2d/croot/aiohttp_1734692700992/work
-aiosignal @ file:///tmp/build/80754af9/aiosignal_1637843061372/work
-async-timeout @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_0fagvkecl5/croot/async-timeout_1732662297241/work
-attrs @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_93pjmt0git/croot/attrs_1734533120523/work
-blinker @ file:///home/conda/feedstock_root/build_artifacts/blinker_1731096409132/work
-click @ file:///home/conda/feedstock_root/build_artifacts/click_1734858813237/work
-Deprecated==1.2.15
-Flask @ file:///home/conda/feedstock_root/build_artifacts/flask_1731556349671/work
-Flask-Limiter==3.9.2
-Flask-Mail==0.10.0
-Flask-SQLAlchemy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_flask-sqlalchemy_1733868589/work
-frozenlist @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_6eeg1bc_1e/croot/frozenlist_1730902809317/work
-greenlet @ file:///Users/runner/miniforge3/conda-bld/greenlet_1734532871631/work
-idna @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_a12xpo84t2/croot/idna_1714398852854/work
-importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/importlib-metadata_1733223117029/work
-itsdangerous @ file:///home/conda/feedstock_root/build_artifacts/itsdangerous_1733308265247/work
-Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/jinja2_1734823942230/work
-limits==3.14.1
-loguru @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_deuhywgtcz/croot/loguru_1729800304209/work
-markdown-it-py==3.0.0
-MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1733219705194/work
-mdurl==0.1.2
-msgpack @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_b1f960af-3408-459c-81e6-6c3b55c6bc85wsdgof__/croots/recipe/msgpack-python_1652362662498/work
-multidict @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_de95nfn702/croot/multidict_1730905502686/work
-numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1707225416355/work/dist/numpy-1.26.4-cp310-cp310-macosx_11_0_arm64.whl#sha256=14c628943f67e9c10d22faa9c1cdcbf69c3192e88f2f597d03b77a252e589567
-ordered-set==4.1.0
-packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1733203243479/work
-plotly @ file:///home/conda/feedstock_root/build_artifacts/plotly_1733733072265/work
-propcache @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_fe0_fkl4d8/croot/propcache_1732303993898/work
-psycopg2 @ file:///Users/runner/miniforge3/conda-bld/psycopg2-split_1727892642581/work
-Pygments==2.18.0
-pyparsing @ file:///private/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_65qfw6vkxg/croot/pyparsing_1731445528142/work
-rich==13.9.4
-scipy==1.15.1
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1733380938961/work
-SQLAlchemy @ file:///Users/runner/miniforge3/conda-bld/sqlalchemy_1729066381576/work
-svgwrite @ file:///home/conda/feedstock_root/build_artifacts/svgwrite_1734380181028/work
-tenacity @ file:///home/conda/feedstock_root/build_artifacts/tenacity_1733649050774/work
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1733188668063/work
-vtk==9.1.0
-Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1733160440960/work
-wrapt==1.17.0
-wslink @ file:///home/conda/feedstock_root/build_artifacts/wslink_1733083528392/work
-yarl @ file:///private/var/folders/k1/30mswbxs7r1g6zwn8y4fyt500000gp/T/abs_01an_nyy_6/croot/yarl_1732546853427/work
-zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1732827521216/work
+aiohappyeyeballs  
+aiohttp  
+aiosignal  
+async-timeout  
+attrs  
+blinker  
+click  
+Deprecated==1.2.15  
+Flask  
+Flask-Limiter==3.9.2  
+Flask-Mail==0.10.0  
+Flask-SQLAlchemy  
+frozenlist  
+greenlet  
+idna  
+importlib_metadata  
+itsdangerous  
+Jinja2  
+limits==3.14.1  
+loguru  
+markdown-it-py==3.0.0  
+MarkupSafe  
+mdurl==0.1.2  
+msgpack  
+multidict  
+numpy==1.26.4  
+ordered-set==4.1.0  
+packaging  
+plotly  
+propcache  
+psycopg2  
+Pygments==2.18.0  
+pyparsing  
+rich==13.9.4  
+scipy==1.15.1  
+six  
+SQLAlchemy  
+svgwrite  
+tenacity  
+typing_extensions  
+vtk==9.1.0  
+Werkzeug  
+wrapt==1.17.0  
+wslink  
+yarl  
+zipp 
