@@ -11,10 +11,10 @@ COPY environment.yml /app/
 RUN conda env create -f environment.yml
 
 # Activate the environment and set it for future commands
-RUN echo "conda activate rnd2_env" >> ~/.bashrc
+RUN echo "conda activate rnd_env" >> ~/.bashrc
 
 # Copy your project code to the container
 COPY . /app/
 
 # Set the default command to run when the container starts
-CMD ["conda", "run", "-n", "<your_environment_name>", "python", "app.py"]
+CMD ["conda", "run", "-n", "rnd_env", "python", "app.py"]
