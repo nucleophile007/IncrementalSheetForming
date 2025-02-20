@@ -40,7 +40,7 @@ from OCC.Core.BRepMesh import BRepMesh_IncrementalMesh
 from OCC.Core.BRepBndLib import brepbndlib_Add
 from datetime import datetime
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://postgres:123456@localhost:5433/toolpath_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql+psycopg2://postgres:12345678@localhost:5432/toolpath_db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # Optional to silence warnings
 db = SQLAlchemy(app)
 class User(db.Model):

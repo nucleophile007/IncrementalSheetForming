@@ -1,9 +1,6 @@
-name: rnd2_env
+name: rnd_env
 channels:
   - conda-forge
-  - defaults
-  - https://repo.anaconda.com/pkgs/main
-  - https://repo.anaconda.com/pkgs/r
 dependencies:
   - aiohappyeyeballs=2.4.4=py310hca03da5_0
   - aiohttp=3.11.10=py310h80987f9_0
@@ -186,7 +183,7 @@ dependencies:
   - wslink=2.2.1=pyhd8ed1ab_1
   - x264=1!164.3095=h57fd34a_2
   - x265=3.5=hbc6ce65_3
-  - xz=5.4.6=h80987f9_1
+  - xz=5.6.3 *_1
   - yarl=1.18.0=py310h80987f9_0
   - zipp=3.21.0=pyhd8ed1ab_1
   - zlib=1.2.13=hfb2fe0b_6
@@ -203,4 +200,4 @@ dependencies:
       - rich==13.9.4
       - scipy==1.15.1
       - wrapt==1.17.0
-prefix: /opt/anaconda3/envs/rnd2_env
+prefix: /opt/anaconda3/envs/rnd_env
